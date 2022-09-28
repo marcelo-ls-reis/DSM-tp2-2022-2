@@ -1,6 +1,6 @@
 package entidades;
 
-public class Documento {
+public class Documento extends PessoaFisica{
     private String rg;
     private String cpf;
     private String cnh;
@@ -24,7 +24,7 @@ public class Documento {
     public String getCpf() {
         return cpf;
     }
-    private void setCpf(String cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
     public String getCnh() {

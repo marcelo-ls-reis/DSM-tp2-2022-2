@@ -1,7 +1,7 @@
 package entidades;
 
-public class Contato {
-    private String email;
+public class Contato extends PessoaFisica{
+    public String email;
     private String fixo;
     private String celular;
     
